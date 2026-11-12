@@ -1,0 +1,23 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local tooling (the prototype has no dependency)
+node_modules/
+composer.lock
+
+# Runtime artefacts
+*.log
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# Optional heavy media kept out of git (drop your own file in assets/video/)
+assets/video/*.mp4
+assets/video/*.webm
